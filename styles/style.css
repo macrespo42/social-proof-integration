@@ -84,6 +84,8 @@ header p {
 
 .customer-card-header img {
     width: 20%;
+    max-width: 40px;
+    max-height: 40px;
     height: auto;
     float: left;
     border-radius: 50%;
