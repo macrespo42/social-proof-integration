@@ -7,3 +7,30 @@
 html {
     font-size: 15px;
 }
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+.wrapper {
+    width: 85%;
+    margin: auto;
+}
+
+/* MAIN CONTENT */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+header p {
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
