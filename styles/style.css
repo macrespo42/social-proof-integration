@@ -107,6 +107,13 @@ header p {
 @media screen and (min-width: 1024px) {
     body {
         background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+        height: 100vh;
+    }
+
+    body {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
     }
 
     /* MAIN CONTENT DESKTOP */
@@ -115,8 +122,8 @@ header p {
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-around;
-        margin-top: 5rem;
+        justify-content: space-between;
+        margin-left: 0;
     }
 
     main header {
@@ -132,6 +139,7 @@ header p {
 
     .rate {
         margin-top: 2.5rem;
+        margin-right: 6rem;
     }
 
     .rate-card {
@@ -153,5 +161,25 @@ header p {
     .rate div:nth-child(3) {
         position: relative;
         left: 6rem;
+    }
+
+    #customers-cards-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    #customers-cards-container .customer-card:not(:last-child) {
+        margin-right: 2rem;
+    }
+
+    #customers-cards-container .customer-card:nth-child(2) {
+        position: relative;
+        top: 3rem;
+    }
+
+    #customers-cards-container .customer-card:nth-child(3) {
+        position: relative;
+        top: 6rem;
     }
 }
