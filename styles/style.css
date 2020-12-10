@@ -58,7 +58,6 @@ header p {
 }
 
 .rate-card p {
-    text-transform: capitalize;
     color: hsl(300, 43%, 22%);
     font-weight: 700;
 }
@@ -103,4 +102,31 @@ header p {
 .customer-card-text {
     color: hsl(300, 24%, 96%);
     font-size: 0.9rem;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+    }
+
+    /* MAIN CONTENT DESKTOP */
+
+    main {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        margin-top: 5rem;
+        /* border: 2px solid black; */
+    }
+
+    main header {
+        margin: 0;
+        flex-basis: 40%;
+        text-align: left;
+    }
+
+    main header h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
 }
