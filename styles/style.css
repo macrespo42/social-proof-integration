@@ -57,9 +57,10 @@ header p {
     color: #E9984C;
 }
 
-.rate-card p {
+.rate-card h2 {
     color: hsl(300, 43%, 22%);
     font-weight: 700;
+    font-size: 1rem;
 }
 
 /* CUSTOMER CARDS */
@@ -91,12 +92,17 @@ header p {
     margin-right: 1rem;
 }
 
-.customer-card-header-names p:nth-child(1) {
-    margin-bottom: -0.5rem;
+.customer-card-header-names h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
 }
 
-.customer-card-header-names p:nth-child(2) {
+.customer-card-header-names h4 {
+    font-size: 0.9rem;
+    margin-top: 0;
     color: hsl(333, 80%, 67%);
+    font-weight: 400;
 }
 
 .customer-card-text {
